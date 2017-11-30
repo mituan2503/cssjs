@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='https://homedy.com/store/img/2016/12/09/cong-hoa-garden1-636168780204075846.png' width='500px'/><br/>Bán căn hộ Cộng Hòa Garden</a>. Liên hệ: 0911630444. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://homedy.com/store/img/2016/12/09/cong-hoa-garden1-636168780204075846.png' target='_blank'><img src='https://homedy.com/store/img/2016/12/09/cong-hoa-garden1-636168780204075846.png' width='500px'/><br/>Bán căn hộ Cộng Hòa Garden</a>. Liên hệ: 0911630444. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
